@@ -1,0 +1,143 @@
+{
+	"languages": {
+		"es": "Español",
+		"en": "English",
+		"fr": "Français"
+	},
+	"defaultTitle": {
+		"es": "Nuestra carta",
+		"en": "Our menu"
+	},
+	"searchTitle": {
+		"es": "Búsqueda",
+		"en": "Search"
+	},
+	"searchPlaceholder": {
+		"es": "Buscar...",
+		"en": "Search..."
+	},
+	"checkTitle": {
+		"es": "Cuenta",
+		"en": "Bill"
+	},
+	"hoursTitle": {
+		"es": "Horarios",
+		"en": "Hours"
+	},
+	"hoursSecondary": {
+		"es": "Horario",
+		"en": "Hours"
+	},
+	"aboutTitle": {
+		"es": "Sobre nosotros",
+		"en": "About us"
+	},
+	"aboutDetails": {
+		"es": "En LD Graphics sabemos que aprovechar la tecnología es clave para ser más eficiente en tu negocio. Por eso hemos formado un equipo especializado en desarrollo de aplicaciones a medida.\n\nNos esforzamos para darle al cliente exactamente lo quiere, siendo la comunicación gran parte de nuestro riguroso proceso de trabajo. Nos comprometemos a dar lo mejor que tenemos, desde la atención al cliente hasta el diseño y desarrollo del producto.\n\nEstaremos encantados de atenderles en <a href=\"mailto:LDGraphicsSL@gmail.com\">LDGraphicsSL@gmail.com</a>",
+		"en": "In LD Graphics we know that making the most of technology is key in order to be more efficient in your business. That is why we have made a team specialized in customized app development. \n\nWe make an effort to give clients exactly what they want, communication being a great part of our thorough working process. We commit to give all we have, from customer attention to design and development of the product. \n\nWe will be happy to help you at <a href=\"mailto:LDGraphicsSL@gmail.com\">LDGraphicsSL@gmail.com</a>"
+	},
+	"allergensButton": {
+		"es": "Información de alérgenos",
+		"en": "Allergen information"
+	},
+	"allergensTitle": {
+		"es": "Alérgenos",
+		"en": "Allergens"
+	},
+	"allergensSecondTitle": {
+		"es": "Alérgenos\ncontenidos en este producto",
+		"en": "Allergens\ncointained in this product"
+	},
+	"allergensDetailsTitle": {
+		"es": "Detalles de los alérgenos",
+		"en": "Allergen details"
+	},
+	"allergensDetails": {
+		"es": "Toda la información sobre alérgenos está basada en datos suministrados por nuestros proveedores. Además de los alérgenos señalados, no se puede excluir totalmente la posible presencia accidental de otros alérgenos durante los procesos de elaboración tanto en la fábrica como en el restaurante. Excepcionalmente y de forma temporal puede haber variaciones en la composición de un determinado producto y por tanto los datos pueden no coincidir con los aquí facilitados.\n\nbarName tiene a su disposición la lista de alérgenos de nuestros productos. Solicítela en el mostrador.",
+		"en": "All the information about allergens is based on the data given by our suppliers. Apart from the allergens pointed out, the possible presence of any other accidental allergen can not be excluded during the elaboration process both in the factory and in the restaurant. There might be irregular and temporary variations in the composition of a determined product, therefore the information may not correspond the ones provided.\n\nbarName has a list of product allergens at your disposal. Ask for it on the counter."
+	},
+	"filtersTitle": {
+		"es": "Filtros",
+		"en": "Filters"
+	},
+	"filtersDetails": {
+		"es": "Requisitos dietéticos",
+		"en": "Dietary requirements"
+	},
+	"filtersApply": {
+		"es": "Aplicar filtros",
+		"en": "Apply filters"
+	},
+	"missingImage": {
+		"es": "Imagen aún no disponible",
+		"en": "Image not yet available"
+	},
+	"photoUpload": {
+		"es": "Subir foto",
+		"en": "Upload photo"
+	},
+	"photoUploading": {
+		"es": "Subiendo la imagen...",
+		"en": "Uploading image..."
+	},
+	"photoSuccess": {
+		"es": "Foto enviada. ¡Gracias!",
+		"en": "Image sent. Thanks!"
+	},
+	"photoError": {
+		"es": "Error al subir la imagen",
+		"en": "Upload error"
+	},
+	"fullsizeOnly": {
+		"es": "Solo fullSize",
+		"en": "fullSize only"
+	},
+	"defaultItem": {
+		"es": "Consultar al camarero",
+		"en": "Ask our waiter"
+	},
+	"requirementError": {
+		"es": "Error: sobran sectionName",
+		"en": "Error: too many sectionName"
+	},
+	"exceedingError": {
+		"es": "Error: demasiadas variedades de sectionName",
+		"en": "Error: too many varieties of sectionName"
+	},
+	"order": {
+		"es": "Pedido",
+		"en": "Order"
+	},
+	"orderNow": {
+		"es": "Pedir ahora",
+		"en": "Order now"
+	},
+	"tableNumber": {
+		"es": "Número de mesa",
+		"en": "Table number"
+	},
+	"commentsTitle": {
+		"es": "Comentarios",
+		"en": "Additional information"
+	},
+	"commentsPlaceholder": {
+		"es": "Añade tus comentarios...",
+		"en": "Add extra info..."
+	},
+	"ordering": {
+		"es": "Pidiendo...",
+		"en": "Ordering..."
+	},
+	"orderSuccess": {
+		"es": "Pedido realizado. Por favor, espere al camarero.",
+		"en": "Done. Please wait for the waiter."
+	},
+	"orderFailed": {
+		"es": "Error. Por favor, inténtelo de nuevo.",
+		"en": "Error. Please try again."
+	},
+	"orderUnavaliable": {
+		"es": "El establecimiento no ha activado esta función. Por favor, solicíteselo al camarero.",
+		"en": "This location has not activated this function. Please tell the waiter."
+	}
+}

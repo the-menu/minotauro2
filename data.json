@@ -1,0 +1,1655 @@
+{
+	"info": {
+		"name": "El Minotauro",
+		"address": "Calle Imprenta 6, 18010, Granada",
+		"image": "portada.jpg",
+		"languages": ["es", "en"],
+		"defaultLanguage": "es",
+		"hours": "Lunes-Jueves: de 12:00 a 16:00\ny de 20:00 a 23:00\nViernes-Domingo: de 12:00 a 17:00\ny de 20:00 a 0:00"
+	},
+	"sections": {
+		"ensaladas": {
+			"name": ["Ensaladas y Sopas", "Salads and Soups"],
+			"image": "ensalada-portada.jpg",
+			"items": ["tomate-aliñado", "tomate-queso", "ensalada-mixta", "ensalada-casa", "pimientos-asados", "ensalada-cangrejo", "salpicon-pulpo", "melon-jamon", "gazpacho", "sopa-casa", "consome"]
+		},
+		"tablas": {
+			"name": ["Tablas", "Starter Platters"],
+			"image": "tabla-mixta.jpg",
+			"items": ["ibericos", "combinada", "pates"]
+		},
+		"combinados": {
+			"name": ["Platos Combinados", "Mixed Grilled Platters"],
+			"image": "combi-portada.jpg",
+			"items": ["fritas", "española", "revuelto", "plato", "carne-combinada", "cerdo", "cordero", "pollo-combi", "pescado-combi", "calamares-combi"]
+		},
+		"raciones": {
+			"name": ["Raciones","Platters"],
+			"image": "calamares-fritos.jpg",
+			"items": ["jamon", "manchego", "queso", "cabra", "lomo-iberico", "chorizo-iberico", "salchichon", "morcilla", "chorizo-frito", "lomo-orza", "montadito-lomo", "carne-salsa", "chuletas", "pollo", "habas", "croquetas", "calamares", "pescado", "pulpo", "melva", "pimientos", "pisto", "patatas", "alcachofas", "papas", "tortilla", "berenjenas", "setas"],
+			"hasSizes": [["Elija el tamaño", "Media", "Entera"], ["Choose the size", "Half", "Platter"]]
+		},
+"tapas": {
+			"name": ["Tapas Extra", "Extra Tapa"],
+			"image": "tapas-extra-portada.jpg",
+			"items": ["beicon-extra", "lomo-extra", "burger-vacuno-extra", "serrano-extra", "tortilla-extra", "setas-extra", "moruno-extra", "chorizo-extra"],
+			"info": ["Nuestras <a href=\"#/section/bebidas\">bebidas</a> vienen acompañadas de una tapa gratis. Máximo dos variedades por mesa.", "Our drinks are served with one free tapa. Two varieties maximum per table."]
+		},
+		"bocadillos": {
+			"name": ["Roscas y Bocadillos", "King Bagels and Sandwiches"],
+			"image": "bocadillo.jpg",
+			"items": ["ingrediente", "lomo-tomate", "lomo-queso", "lomo-roque", "lomo-beicon", "beicon-tomate", "beicon-queso", "beicon-roque", "serrano-aceite", "serrano-queso", "serrano-roque", "sobrasada-queso", "york-queso", "york-roque", "anchoas-tomate", "anchoas-alcachofas", "melva-morron", "setas-jamon", "setas-queso", "tortilla-bocata", "carne-bocata", "chorizo-bocata", "pollo-bocata", "calamares-bocata"],
+			"info": ["Todas nuestras opciones pueden ser tanto en bocadillo como en rosca excepto por los indicados en la descripción.", "All our options can be both in sandwich or king bagel except for the ones indicated in the description."]
+		},
+		"especialidades": {
+			"name": ["Especialidades", "Specialties"],
+			"image": "migas.jpg",
+			"items": ["revuelto-ajetes", "revuelto-setas", "esparragos-jamon", "migas-alpujarra", "huevos-jamon", "calamares-especial", "gambas-pilpil", "cazon-especial", "entrecot-ternera"]
+		},
+		"postres": {
+			"name": ["Postres", "Desserts"],
+			"image": "fruta-portada.jpg",
+			"items": ["flan", "mousse", "helado", "fruta", "melocoton-almibar", "melocoton-helado"]
+		},
+		"bebidas": {
+			"name": ["Bebidas", "Drinks"],
+			"image": "bebidas.jpg",
+			"items": ["cana-miguel", "tubo-miguel", "miguel-sin", "jarra-miguel", "alhambra-1925", "alhambra-especial", "cruzcampo-especial", "estrella-galicia", "mahou", "sacromonte", "mosto", "tinto-verano", "sangria", "vermut", "refrescos", "zumos", "batidos"],
+			"info": ["Nuestras bebidas vienen acompañadas de una tapa gratis. Máximo dos variedades por mesa.", "Our drinks are served with one free tapa. Two varieties maximum per table."]
+		},
+		"vinos-tintos": {
+			"name": ["Vinos Tintos", "Red Wines"],
+			"image": "vino-portada.jpg",
+			"items": ["tinto-casa", "vino-alpujarra", "tinto-granada", "rioja-rojo", "crianza", "ribera"],
+			"hasSizes": [["Elija el tamaño", "Copa", "Botella"], ["Choose the size", "Glass", "Bottle"]]
+		},
+		"vinos-blancos": {
+			"name": ["Vinos Blancos, Espumosos, rosados y Dulces", "White, Sparkling and Sweet Wines"],
+			"image": "vino-blanco-portada.jpg",
+			"items": ["rioja-blanco", "rueda", "andaluz", "manzanilla-vino", "fino", "semidulce", "lambrusco", "dulce", "rosado"],
+			"hasSizes": [["Elija el tamaño", "Copa", "Botella"], ["Choose the size", "Glass", "Bottle"]]
+		}
+	},
+	"items": {
+		"jamon": {
+			"name": ["Jamón Serrano", "Serrano Ham"],
+			"prices": [3.5, 8.95],
+			"pricesNames": [["Media", "Entera"], ["Half", "Platter"]],
+			"missing": "tabla-mixta.jpg",
+			"filters": [],
+			"allergens": [],
+			"description": ["Nuestro mejor Jamón Serrano para compartir.", "Platter of our finest Serrano Ham."]
+		},
+		"desayuno-francesa": {
+			"name": ["Tortilla Francesa", "Omelette"],
+			"price": 3.95,
+			"missing": "huevos-portada.jpg",
+			"allergens": [],
+			"description": ["", ""]
+		},
+		"desayuno-española": {
+			"name": ["Tortilla Española", "Spanish Omelette"],
+			"price": 3.5,
+			"missing": "huevos-portada.jpg",
+			"allergens": ["Huevos", "lacteos"],
+			"description": ["", ""]
+		},
+		"desayuno-revueltos": {
+			"name": ["Huevos Revueltos", "Scrambled Eggs"],
+			"price": 3.95,
+			"missing": "huevos-portada.jpg",
+			"allergens": [],
+			"description": ["", ""]
+		},
+		"desayuno-setas": {
+			"name": ["Huevos Revueltos con Setas", "Scrambled Eggs with Mushrooms"],
+			"price": 4.75,
+			"missing": "huevos-portada.jpg",
+			"allergens": [],
+			"description": ["", ""]
+		},
+		"desayuno-patatas": {
+			"name": ["Huevos Rotos con Patatas", "Broken Eggs with Potatoes"],
+			"price": 4.5,
+			"missing": "huevos-portada.jpg",
+			"allergens": [],
+			"description": ["", ""]
+		},
+		"desayuno-beicon": {
+			"name": ["Huevos con Beicon", "Eggs and Bacon"],
+			"price": 3.95,
+			"missing": "huevos-portada.jpg",
+			"allergens": [],
+			"description": ["", ""]
+		},
+		"desayuno-jamon": {
+			"name": ["Huevos Revueltos con Jamón", "Scrambled Eggs with Serrano Ham"],
+			"price": 4.75,
+			"missing": "huevos-portada.jpg",
+			"allergens": [],
+			"description": ["", ""]
+		},
+		"desayuno-habas": {
+			"name": ["Eggs and Beans", "Eggs and Beans"],
+			"price": 3.75,
+			"missing": "huevos-portada.jpg",
+			"allergens": [],
+			"description": ["", ""]
+		},
+		"tostada-aceite": {
+			"name": ["Tostada de Aceite", "Toast with Oil"],
+			"prices": [0.9, 1.5],
+			"pricesNames": [["Media", "Entera"], ["Half", "Big"]],
+			"missing": "cafes-portada.jpg",
+			"allergens": [],
+			"description": ["", ""]
+		},
+		"tostada-miel": {
+			"name": ["Tostada de Aceite y Miel", "Toast with Oil and Honey"],
+			"prices": [0.95, 1.5],
+			"pricesNames": [["Media", "Entera"], ["Half", "Big"]],
+			"missing": "cafes-portada.jpg",
+			"allergens": [],
+			"description": ["", ""]
+		},
+		"tostada-mantequilla": {
+			"name": ["Tostada de Mantequilla (o vegetal)", "Toast with Butter (Or vegetarian)"],
+			"prices": [0.95, 1.5],
+			"pricesNames": [["Media", "Entera"], ["Half", "Big"]],
+			"missing": "cafes-portada.jpg",
+			"allergens": [],
+			"description": ["", ""]
+		},
+		"tostada-mermelada": {
+			"name": ["Tostada de Mantequilla y Mermelada (Mixta)", "Toast with Butter and Jam"],
+			"prices": [1, 1.6],
+			"pricesNames": [["Media", "Entera"], ["Half", "Big"]],
+			"missing": "cafes-portada.jpg",
+			"allergens": [],
+			"description": ["", ""]
+		},
+		"tostada-tomate": {
+			"name": ["Tostada de Tomate y Aceite", "Toast with Tomato and Oil"],
+			"prices": [0.95, 1.5],
+			"pricesNames": [["Media", "Entera"], ["Half", "Big"]],
+			"missing": "cafes-portada.jpg",
+			"allergens": [],
+			"description": ["", ""]
+		},
+		"tostada-sobrasada": {
+			"name": ["Tostada de Sobrasada", "Tostada with Sobrasada"],
+			"prices": [0.95, 1.7],
+			"pricesNames": [["Media", "Entera"], ["Half", "Big"]],
+			"missing": "cafes-portada.jpg",
+			"allergens": [],
+			"description": ["", "Toast with delicious Majorcan Sobrasada."]
+		},
+		"tostada-pate": {
+			"name": ["Tostada de Paté", "Toast with Paté"],
+			"prices": [0.95, 1.7],
+			"pricesNames": [["Media", "Entera"], ["Half", "Big"]],
+			"missing": "cafes-portada.jpg",
+			"allergens": [],
+			"description": ["", ""]
+		},
+		"tostada-roquefort": {
+			"name": ["Tostada de Roquefort", "Toast with Roquefort Cheese"],
+			"prices": [0.95, 1.7],
+			"pricesNames": [["Media", "Entera"], ["Half", "Big"]],
+			"missing": "cafes-portada.jpg",
+			"allergens": [],
+			"description": ["", ""]
+		},
+		"croissant": {
+			"name": "Croissant",
+			"price": 1.75,
+			"missing": "cafes-portada.jpg",
+			"allergens": [],
+			"description": ["", ""]
+		},
+		"churros": {
+			"name": "Churros",
+			"prices": [1.5, 2.2],
+			"pricesNames": [["Media", "Entera"], ["Half", "Big"]],
+			"missing": "cafes-portada.jpg",
+			"allergens": [],
+			"description": ["", ""]
+		},
+		"pate-queso": {
+			"name": ["Tostada de Paté y Queso", "Toast with Paté and Cheese"],
+			"prices": [1.85, 3.7],
+			"pricesNames": [["Media", "Entera"], ["Half", "Big"]],
+			"missing": "cafes-portada.jpg",
+			"allergens": [],
+			"description": ["", ""]
+		},
+		"especial-serrano": {
+			"name": ["Tostada de Jamón Serrano, Tomate y Aceite", "Toast with Serrano Ham, Tomato and Oil"],
+			"prices": [1.85, 3.7],
+			"pricesNames": [["Media", "Entera"], ["Half", "Big"]],
+			"missing": "cafes-portada.jpg",
+			"allergens": [],
+			"description": ["", ""]
+		},
+		"especial-queso": {
+			"name": ["Tostada de Queso, Tomate y Aceite", "Toast with Cheese, Tomato and Oil"],
+			"prices": [1.85, 3.7],
+			"pricesNames": [["Media", "Entera"], ["Half", "Big"]],
+			"missing": "cafes-portada.jpg",
+			"allergens": [],
+			"description": ["", ""]
+		},
+		"especial-sobrasada": {
+			"name": ["Tostada de Sobrasada y Queso", "Toast with Sobrasada and Cheese"],
+			"prices": [1.85, 3.7],
+			"pricesNames": [["Media", "Entera"], ["Half", "Big"]],
+			"missing": "cafes-portada.jpg",
+			"allergens": [],
+			"description": ["", "Toast with delicious majorcan sobrasada and cheese"]
+		},
+		"especial-roquefort": {
+			"name": ["Tostada de Jamón Serrano, Roquefort y Tomate", "Toast with Serrano Ham, Roquefort Cheese and Tomato"],
+			"prices": [1.85, 3.7],
+			"pricesNames": [["Media", "Entera"], ["Half", "Big"]],
+			"missing": "cafes-portada.jpg",
+			"allergens": [],
+			"description": ["", ""]
+		},
+		"cafe-tostada": {
+			"name": ["Café o Té + ½ Tostada Normal", "Coffee or Tea + ½ Normal Toast"],
+			"price": 2.1,
+			"missing": "cafes-portada.jpg",
+			"allergens": [],
+			"description": ["", ""]
+		},
+		"tostada-zumo": {
+			"name": ["Café o Té + ½ Tostada Normal + Zumo de Naranja Pequeño", "Coffee or Tea + ½ Normal Toast + Small Orange Juice"],
+			"price": 3.9,
+			"missing": "cafes-portada.jpg",
+			"allergens": [],
+			"description": ["", ""]
+		},
+		"sandwich-vegano": {
+			"name": ["Sándwich Vegetal", "Veggie Sandwich"],
+			"price": 2.95,
+			"missing": "sandwich.jpg",
+			"filters": ["vegan", "vegetarian"],
+			"allergens": [],
+			"description": ["Delicioso sándwich vegetal vegano.", "Delicious vegan vegetable sandwich."]
+		},
+		"sandwich-vegetariano": {
+			"name": ["Sándwich Vegetal", "Veggie Sandwich"],
+			"price": 2.95,
+			"missing": "sandwich.jpg",
+			"filters": ["vegetarian"],
+			"allergens": [],
+			"description": ["Delicioso sándwich vegetal vegetariano.", "Delicious vegetarian vegetable sandwich."]
+		},
+		"sandwich-tomate": {
+			"name": ["Queso y Tomate", "Cheese and Tomato Sandwich"],
+			"price": 2.85,
+			"missing": "sandwich.jpg",
+			"filters": ["vegetarian"],
+			"allergens": [],
+			"description": ["Delicioso sándwich de tomate y queso.", "Delicious cheese and tomato sandwich."]
+		},
+		"sandwich-york": {
+			"name": ["York, Queso y Tomate", "Ham, Cheese and Tomato Sandwich"],
+			"price": 2.95,
+			"missing": "sandwich.jpg",
+			"allergens": [],
+			"description": ["Delicioso sándwich de jamón de york, queso y tomate.", "Delicious ham, cheese and tomato sandwich."]
+		},
+		"sandwich-mantequilla": {
+			"name": ["York, Queso y Mantequilla", "Ham, Cheese and Butter Sandwich"],
+			"price": 2.95,
+			"missing": "sandwich.jpg",
+			"allergens": [],
+			"description": ["Delicioso sándwich de jamón de york, queso y mantequilla.", "Delicious ham, cheese and butter sandwich."]
+		},
+		"sandwich-roque": {
+			"name": ["York, Roquefort y Tomate", "Ham, Roquefort Cheese and Tomato Sandwich"],
+			"price": 2.95,
+			"missing": "sandwich.jpg",
+			"allergens": [],
+			"description": ["Delicioso sándwich de jamón de york, roquefort y tomate.", "Delicious ham, roquefort cheese and tomato sandwich."]
+		},
+		"sandwich-serrano": {
+			"name": ["Serrano, Roquefort y Tomate", "Serrano Ham, Roquefort Cheese and Tomato Sandwich"],
+			"price": 2.95,
+			"missing": "sandwich.jpg",
+			"allergens": [],
+			"description": ["Delicioso sándwich de jamón serrano, roquefort y tomate.", "Delicious serrano ham, roquefort cheese and tomato sandwich."]
+		},
+		"sandwich-aceite": {
+			"name": ["Serrano, Tomate y Aceite", "Serrano Ham, Tomato and Oil Sandwich"],
+			"price": 2.95,
+			"missing": "sandwich.jpg",
+			"allergens": [],
+			"description": ["Delicioso sándwich de jamón serrano, tomate y aceite.", "Delicious serrano ham, tomato and oil sandwich."]
+		},
+		"cafe-solo": {
+			"name": ["Café", "Coffee"],
+			"price": 1.35,
+			"missing": "cafes-portada.jpg",
+			"allergens": [],
+			"description": ["Expresso o Americano", "Black or espresso."]
+		},
+		"manchada": {
+			"name": ["Café Manchada", "Macchiatto"],
+			"price": 1.45,
+			"missing": "cafes-portada.jpg",
+			"allergens": [],
+			"description": []
+		},
+		"cafe-leche": {
+			"name": ["Café con leche", "Latte"],
+			"price": 1.45,
+			"missing": "cafes-portada.jpg",
+			"allergens": ["lacteos"],
+			"description": ["50 café, 50 leche", "50 coffee, 50 milk."]
+		},
+		"capuchino": {
+			"name": ["Café Capuchino", "Capuccino"],
+			"price": 1.85,
+			"missing": "cafes-portada.jpg",
+			"allergens": [],
+			"description": []
+		},
+		"bombon": {
+			"name": ["Café bombón", "Condensed milk espresso"],
+			"price": 1.8,
+			"missing": "cafes-portada.jpg",
+			"filters": [],
+			"allergens": [],
+			"description": ["Café con leche condensada", "Espresso with condensed milk"]
+		},
+		"carajillo": {
+			"name": "Carajillo",
+			"price": 1.95,
+			"misssing": "cafes-portada.jpg",
+			"filters": [],
+			"allergens": [],
+			"description": ["Combinación de café con anís.", "Combination of coffee and anisette."]
+		},
+		"vienes": {
+			"name": "Café Vienés",
+			"price": 1.95,
+			"missing": "cafes-portada.jpg",
+			"filters": [],
+			"allergens": ["lacteos"],
+			"description": ["Café y nata montada.", "Coffee and Whipped Cream."]
+		},
+		"irlandes": {
+			"name": ["Café Irlandés", "Irish Coffee"],
+			"price": 5.5,
+			"missing": "cafes-portada.jpg",
+			"filters": [],
+			"allergens": [],
+			"description": ["Combinación de café con whisky.", "Combination of coffee and whisky."]
+		},
+		"blanco-negro": {
+			"name": ["Blanco y Negro", "Black and White"],
+			"price": 3.75,
+			"missing": "cafes-portada.jpg",
+			"filters": [],
+			"allergens": [],
+			"description": ["Combinación de café con helado.", "Combination of coffee and Ice Cream."]
+		},
+		"te-solo": {
+			"name": ["Té", "Tea"],
+			"price": 1.45,
+			"missing": "cafes-portada.jpg",
+			"filters": [],
+			"allergens": [],
+			"description": ["Pregunte al camarero por nuestra variedad.", "Ask our waiter about our variety."]
+		},
+		"te-leche": {
+			"name": ["Té con Leche", "Tea and Milk"],
+			"price": 1.45,
+			"missing": "cafes-portada.jpg",
+			"filters": [],
+			"allergens": [],
+			"description": ["", ""]
+		},
+		"te-especial": {
+			"name": ["Té Especial", "Special Tea"],
+			"price": 1.6,
+			"missing": "cafes-portada.jpg",
+			"filters": [],
+			"allergens": [],
+			"description": ["Pregunte al camarero por nuestra variedad", "Ask our waiter about our variety"]
+		},
+		"tila": {
+			"name": ["Tila", "Linden"],
+			"price": 1.45,
+			"missing": "cafes-portada.jpg",
+			"filters": [],
+			"allergens": [],
+			"description": ["", ""]
+		},
+		"manzanilla": {
+			"name": ["Manzanilla", "Chamomile"],
+			"price": 1.45,
+			"missing": "cafes-portada.jpg",
+			"filters": [],
+			"allergens": [],
+			"description": ["", ""]
+		},
+		"menta-poleo": {
+			"name": ["Menta Poleo", "Pennyroyal Mint"],
+			"price": 1.45,
+			"missing": "cafes-portada.jpg",
+			"filters": [],
+			"allergens": [],
+			"description": ["", ""]
+		},
+		"leche": {
+			"name": ["Vaso de Leche", "Glass of Milk"],
+			"price": 1.5,
+			"missing": "cafes-portada.jpg",
+			"filters": [],
+			"allergens": [],
+			"description": ["", ""]
+		},
+		"chocolate": {
+			"name": ["Chocolate Caliente", "Hot Chocolate"],
+			"price": 2.5,
+			"missing": "cafes-portada.jpg",
+			"filters": [],
+			"allergens": [],
+			"description": ["", ""]
+		},
+		"colacao": {
+			"name": "Cola Cao",
+			"price": 1.7,
+			"missing": "cafes-portada.jpg",
+			"filters": [],
+			"allergens": [],
+			"description": ["El cola-cao original tanto para los niños como para los que no son tan niños.", "The famous brand of Cocoa powder that both kids and adults love."]
+		},
+		"zumo-33": {
+			"name": ["Zumo de naranja natural 33cl", "Natural orange juice 33cl"],
+			"price": 2.6,
+			"missing": "cafes-portada.png",
+			"filters": [],
+			"allergens": [],
+			"description": ["Recién exprimido", "Freshly squeezed"]
+		},
+		"zumo-20": {
+			"name": ["Zumo de naranja natural 20cl", "Natural orange juice 20cl"],
+			"price": 2.1,
+			"missing": "cafes-portada.png",
+			"filters": [],
+			"allergens": [],
+			"description": ["Recién exprimido", "Freshly squeezed"]
+		},
+		"cana-miguel": {
+			"name": ["Caña San Miguel", "Half Pint of San Miguel"],
+			"price": 2.3,
+			"missing": "bebidas.jpg",
+			"filters": [],
+			"allergens": [],
+			"description": ["", ""]
+		},
+		"tubo-miguel": {
+			"name": ["Tubo San Miguel", "Glass of San Miguel"],
+			"price": 2.3,
+			"missing": "bebidas.jpg",
+			"filters": [],
+			"allergens": [],
+			"description": ["", ""]
+		},
+		"miguel-sin": {
+			"name": ["San Miguel sin 0,0", "San Miguel Alcohol Free 0,0"],
+			"price": 2.3,
+			"missing": "bebidas.jpg",
+			"filters": [],
+			"allergens": ["gluten"],
+			"description": ["Para disfrutar con todo el sabor sin alcohol.", "To enjoy all the flavour with no alcohol."]
+		},
+		"jarra-miguel": {
+			"name": ["Jarra 0,51 San Miguel", "Pint of San Miguel 0,51"],
+			"price": 3.6,
+			"missing": "bebidas.jpg",
+			"filters": [],
+			"allergens": [],
+			"description": ["", ""]
+		},
+		"alhambra-1925": {
+			"name": "Alhambra 1925 33cl",
+			"price": 2.95,
+			"missing": "bebidas.jpg",
+			"filters": [],
+			"allergens": [],
+			"description": ["", ""]
+		},
+		"alhambra-especial": {
+			"name": "Alhambra Especial 33cl",
+			"price": 2.75,
+			"missing": "bebidas.jpg",
+			"filters": [],
+			"allergens": [],
+			"description": ["", ""]
+		},
+		"cruzcampo-especial": {
+			"name": "Cruzcampo Especial",
+			"price": 2.75,
+			"missing": "bebidas.jpg",
+			"filters": [],
+			"allergens": [],
+			"description": ["", ""]
+		},
+		"estrella-galicia": {
+			"name": "Estrella Galicia",
+			"price": 2.75,
+			"missing": "bebidas.jpg",
+			"filters": [],
+			"allergens": [],
+			"description": ["", ""]
+		},
+		"mahou": {
+			"name": "Mahou",
+			"price": 2.95,
+			"missing": "bebidas.jpg",
+			"filters": [],
+			"allergens": [],
+			"description": ["", ""]
+		},
+		"sacromonte": {
+			"name": "Sacromonte Artesana",
+			"price": 3.5,
+			"image": "bebidas.jpg",
+			"filters": [],
+			"allergens": [],
+			"description": ["", "Craft Beer from the Sacromonte."]
+		},
+		"mosto": {
+			"name": ["Mosto sin alcohol", "Grape must"],
+			"price": 2.25,
+			"missing": "bebidas.jpg",
+			"filters": [],
+			"allergens": [],
+			"description": ["", ""]
+		},
+		"tinto-verano": {
+			"name": ["Tinto de Verano", "Summer Punch"],
+			"price": 2.3,
+			"missing": "bebidas.jpg",
+			"filters": [],
+			"allergens": [],
+			"description": ["", ""]
+		},
+		"sangria": {
+			"name": "Sangría",
+			"price": 2.5,
+			"missing": "bebidas.jpg",
+			"filters": [],
+			"allergens": [],
+			"description": ["", ""]
+		},
+		"vermut": {
+			"name": "Vermut",
+			"price": 2.5,
+			"missing": "bebidas.jpg",
+			"filters": [],
+			"allergens": [],
+			"description": ["", ""]
+		},
+		"refrescos": {
+			"name": ["Refrescos", "Sodas"],
+			"price": 2.3,
+			"missing": "bebidas.jpg",
+			"filters": [],
+			"allergens": [],
+			"description": ["", ""]
+		},
+		"zumos": {
+			"name": ["Zumos", "Juices"],
+			"price": 2.3,
+			"missing": "cafes-portada.jpg",
+			"filters": [],
+			"allergens": [],
+			"description": ["", ""]
+		},
+		"batidos": {
+			"name": ["Batidos", "Milkshakes"],
+			"price": 2.3,
+			"image": "cafes-portada.jpg",
+			"filters": [],
+			"allergens": [],
+			"description": ["", ""]
+		},
+		"tinto-casa": {
+			"name": ["Tinto de la Casa", "House Wine"],
+			"prices": [2.4, 10.9],
+			"pricesNames": [["Copa", "Botella"], ["Glass", "Bottle"]],
+			"missing": "bebidas.jpg",
+			"filters": [],
+			"allergens": [],
+			"description": ["", ""]
+		},
+		"vino-alpujarra": {
+			"name": ["Vino de la Alpujarra", "Wine of the Alpujarra"],
+			"prices": [2.3, 9.9],
+			"pricesNames": [["Copa", "Botella"], ["Glass", "Bottle"]],
+			"missing": "bebidas.jpg",
+			"filters": [],
+			"allergens": [],
+			"description": ["", ""]
+		},
+		"tinto-granada": {
+			"name": ["Tinto de Granada", "Wine of Granada"],
+			"prices": [2.5, 15.5],
+			"pricesNames": [["Copa", "Botella"], ["Glass", "Bottle"]],
+			"missing": "bebidas.jpg",
+			"filters": [],
+			"allergens": [],
+			"description": ["", ""]
+		},
+		"rioja-rojo": {
+			"name": "Rioja",
+			"prices": [2.6, 12.95],
+			"pricesNames": [["Copa", "Botella"], ["Glass", "Bottle"]],
+			"missing": "bebidas.jpg",
+			"filters": [],
+			"allergens": [],
+			"description": ["", ""]
+		},
+		"crianza": {
+			"name": "Rioja Crianza",
+			"prices": [3, 16.95],
+			"pricesNames": [["Copa", "Botella"], ["Glass", "Bottle"]],
+			"missing": "bebidas.jpg",
+			"filters": [],
+			"allergens": [],
+			"description": ["", ""]
+		},
+		"ribera": {
+			"name": "Ribera del Duero",
+			"prices": [3, 16.95],
+			"pricesNames": [["Copa", "Botella"], ["Glass", "Bottle"]],
+			"missing": "bebidas.jpg",
+			"filters": [],
+			"allergens": [],
+			"description": ["", ""]
+		},
+		"rioja-blanco": {
+			"name": "Rioja",
+			"prices": [2.4, 11.95],
+			"pricesNames": [["Copa", "Botella"], ["Glass", "Bottle"]],
+			"missing": "bebidas.jpg",
+			"filters": [],
+			"allergens": [],
+			"description": ["", ""]
+		},
+		"rueda": {
+			"name": "Rueda",
+			"prices": [2.5, 11.95],
+			"pricesNames": [["Copa", "Botella"], ["Glass", "Bottle"]],
+			"missing": "bebidas.jpg",
+			"filters": [],
+			"allergens": [],
+			"description": ["", ""]
+		},
+		"andaluz": {
+			"name": "Andaluz",
+			"prices": [2.5, 11.95],
+			"pricesNames": [["Copa", "Botella"], ["Glass", "Bottle"]],
+			"missing": "bebidas.jpg",
+			"filters": [],
+			"allergens": [],
+			"description": ["", ""]
+		},
+		"manzanilla-vino": {
+			"name": "Manzanilla",
+			"prices": [2.5, 12.5],
+			"pricesNames": [["Copa", "Botella"], ["Glass", "Bottle"]],
+			"missing": "bebidas.jpg",
+			"filters": [],
+			"allergens": [],
+			"description": ["", ""]
+		},
+		"fino": {
+			"name": "Fino Jerez",
+			"prices": [2.6, 12.5],
+			"pricesNames": [["Copa", "Botella"], ["Glass", "Bottle"]],
+			"missing": "bebidas.jpg",
+			"filters": [],
+			"allergens": [],
+			"description": ["", ""]
+		},
+		"semidulce": {
+			"name": "Semidulce",
+			"prices": [2.5, 11.95],
+			"pricesNames": [["Copa", "Botella"], ["Glass", "Bottle"]],
+			"missing": "bebidas.jpg",
+			"filters": [],
+			"allergens": [],
+			"description": ["", ""]
+		},
+		"lambrusco": {
+			"name": "Lambrusco",
+			"prices": [2.5, 12.5],
+			"pricesNames": [["Copa", "Botella"], ["Glass", "Bottle"]],
+			"missing": "bebidas.jpg",
+			"filters": [],
+			"allergens": [],
+			"description": ["", ""]
+		},
+		"dulce": {
+			"name": "Dulce Málaga o Moscatel",
+			"prices": [2.45, 11.4],
+			"pricesNames": [["Copa", "Botella"], ["Glass", "Bottle"]],
+			"missing": "bebidas.jpg",
+			"filters": [],
+			"allergens": [],
+			"description": ["", ""]
+		},
+		"rosado": {
+			"name": "Rosado Navarra",
+			"prices": [2.4, 11.4],
+			"pricesNames": [["Copa", "Botella"], ["Glass", "Bottle"]],
+			"missing": "bebidas.jpg",
+			"filters": [],
+			"allergens": [],
+			"description": ["", ""]
+		},
+		"flan": {
+			"name": ["Flan de Huevo y Nata", "Egg Flan with Whipped Cream"],
+			"price": 3.95,
+			"missing": "cafes-portada.jpg",
+			"filters": [],
+			"allergens": ["lacteos", "gluten"],
+			"description": ["Postre elaborado con huevo, leche y azúcar.", "Dessert made with egg, milk and sugar."]
+		},
+		"mousse": {
+			"name": ["Mousse de Chocolate", "Chocolate Mousse"],
+			"price": 3.5,
+			"missing": "cafes-portada.jpg",
+			"filters": [],
+			"allergens": ["lacteos", "gluten"],
+			"description": ["Cremoso postre elaborado con huevo, leche y chocolate.", "Creamy dessert made with egg, milk and chocolate."]
+		},
+		"helado": {
+			"name": ["Helado", "Ice Cream"],
+			"price": 2.95,
+			"missing": "cafes-portada.jpg",
+			"filters": [],
+			"allergens": ["lacteos", "gluten"],
+			"description": ["Pregunta por nuestra variedad de helados.", "Ask for our variety of flavours."]
+		},
+		"fruta": {
+			"name": ["Fruta", "Fruit"],
+			"price": 2.5,
+			"missing": "cafes-portada.jpg",
+			"filters": [],
+			"allergens": [],
+			"description": ["Pregunta por nuestra variedad de fruta.", "Ask for our variety of fruits."]
+		},
+		"melocoton-almibar": {
+			"name": ["Melocotón o Piña en Almíbar con Nata", "Peach or Pineapple in Syrup and Whipped Cream"],
+			"price": 2.75,
+			"missing": "cafes-portada.jpg",
+			"filters": [],
+			"allergens": ["lacteos", "gluten"],
+			"description": ["Deliciosa fruta en almíbar con nata.", "Delicious fruit with syrup and whipped cream."]
+		},
+		"melocoton-helado": {
+			"name": ["Melocotón o Piña con Helado", "Peach or Pineapple with Ice Cream"],
+			"price": 3.75,
+			"missing": "cafes-portada.jpg",
+			"filters": [],
+			"allergens": ["lacteos", "gluten"],
+			"description": ["Deliciosa fruta con helado.", "Delicious fruit with Ice cream."]
+		},
+		"tocino": {
+			"name": ["Tocino de Cielo con Nata", "Tocino de Cielo with Whipped Cream"],
+			"price": 3.75,
+			"missing": "cafes-portada.jpg",
+			"filters": [],
+			"allergens": ["lacteos", "gluten"],
+			"description": ["Postre elaborado a base de yema de huevo caramelizada y azúcar.", "Dessert made with caramelized egg yolk and sugar."]
+		},
+		"fritas": {
+			"name": ["Patatas Fritas con Huevo", "French Fries with egg"],
+			"price": 7.5,
+			"image": "huevos-portada.jpg",
+			"filters": ["vegetarian"],
+			"allergens": ["huevos", "lacteos", "gluten"],
+			"description": ["Prueba nuestras deliciosas patatas fritas con huevo", "Try our delicious french fries with egg."]
+		},
+		"española": {
+			"name": ["Tortilla Española con Ensalada", "Spanish Omelette with Salad"],
+			"price": 7.95,
+			"missing": "combi-portada.jpg",
+			"filters": ["vegetarian"],
+			"allergens": ["huevos", "lacteos", "gluten"],
+			"description": ["Tortilla Española acompañada de ensalada", "Spanish Omelette served with salad."]
+		},
+		"revuelto": {
+			"name": ["Revuelto Vegetal", "Stirred vegetables"],
+			"price": 9.5,
+			"missing": "papas-a-lo-pobre.jpg",
+			"filters": ["vegetarian"],
+			"allergens": [],
+			"description": ["Delicioso revuelto de vegetales.", "Delicious stirred vegetables."]
+		},
+		"plato": {
+			"name": ["Plato Alpujarreño", "Dish of The Alpujarra"],
+			"price": 10.95,
+			"missing": "combi-portada.jpg",
+			"filters": [],
+			"allergens": ["huevos", "lacteos", "gluten"],
+			"description": ["Combinación de lomo, huevo, chorizo, morcilla y patatas.", "Combination of pork loin, egg, chorizo, blood sausage and potatoes."]
+		},
+		"carne-combinada": {
+			"name": ["Carne en Salsa con Patatas", "Saucy Meat with French Fries"],
+			"price": 8.95,
+			"missing": "combi-portada.jpg",
+			"filters": [],
+			"allergens": ["lacteos", "gluten"],
+			"description": ["Prueba nuestra deliciosa carne en salsa con patatas.", "Try our saucy meat served with french fries."]
+		},
+		"cerdo": {
+			"name": ["Cerdo a la Plancha", "Grilled Pork"],
+			"price": 8.95,
+			"missing": "combi-portada.jpg",
+			"filters": [],
+			"allergens": [],
+			"description": ["Delicioso cerdo a la plancha acompañado de patatas fritas o ensalada", "Delicious grilled pork served with either french fries or salad."]
+		},
+		"cordero": {
+			"name": ["Cordero a la Plancha", "Grilled Lamb"],
+			"price": 9.95,
+			"missing": "combi-portada.jpg",
+			"filters": [],
+			"allergens": [],
+			"description": ["Delicioso cordero a la plancha acompañado de patatas fritas o ensalada.", "Delicious grilled lamb served with either french fries or salad."]
+		},
+		"pollo-combi": {
+			"name": ["Pollo a la Plancha", "Grilled Chicken"],
+			"price": 9.95,
+			"missing": "combi-portada.jpg",
+			"filters": [],
+			"allergens": [],
+			"description": ["Delicioso pollo a la plancha acompañado de patatas fritas o ensalada.", "Delicious grilled chicken served with either french fries or salad."]
+		},
+		"pescado-combi": {
+			"name": ["Pescado a la Plancha", "Grilled Fish"],
+			"price": 9.5,
+			"missing": "combi-portada.jpg",
+			"filters": [],
+			"allergens": ["pescado"],
+			"description": ["Delicioso pescado a la plancha acompañado de patatas fritas o ensalada.", "Delicious grilled fish served with either french fries or salad."]
+		},
+		"calamares-combi": {
+			"name": ["Calamares Fritos", "Fried Squid"],
+			"price": 9.5,
+			"image": "calamares-fritos.jpg",
+			"filters": [],
+			"allergens": ["pescado", "lacteos", "gluten"],
+			"description": ["Delicioso calamares fritos acompañados de patatas fritas o ensalada.", "Delicious fried squid served with either french fries or salad."]
+		},
+		"tomate-aliñado": {
+			"name": ["Tomate Aliñado", "Seasoned Tomato"],
+			"price": 5.95,
+			"missing": "ensalada.portada.jpg",
+			"filters": ["vegetarian", "vegan"],
+			"allergens": [],
+			"description": ["Tomate cortado y aliñado en aceite", "Freshly cut tomato seasoned in oil."]
+		},
+		"tomate-queso": {
+			"name": ["Tomate y Queso", "Tomato and Cheese"],
+			"price": 7.95,
+			"missing": "combi-portada.jpg",
+			"filters": ["vegetarian"],
+			"allergens": ["lacteos", "gluten"],
+			"description": ["Delicioso tomate troceado con queso.", "Delicious freshly cut tomatoes with cheese."]
+		},
+		"ensalada-mixta": {
+			"name": ["Ensalada Mixta", "Ensalada Mixta"],
+			"price": 6.75,
+			"missing": "ensalada-portada.jpg",
+			"filters": ["vegetarian", "vegan"],
+			"allergens": ["lacteos", "gluten"],
+			"description": ["Lechuga, tomate, maíz y pepino.", "Lettuce, tomato, corn and cucumber."]
+		},
+		"ensalada-casa": {
+			"name": ["Ensalada de la Casa", "House Salad"],
+			"price": 6.95,
+			"missing": "ensalada-portada.jpg",
+			"filters": [],
+			"allergens": ["pescado"],
+			"description": ["Lechuga, tomate, maíz, pepino, zanahoria y atún.", "Lettuce, tomato, corn, cucumber, carrots and tuna."]
+		},
+		"pimientos-asados": {
+			"name": ["Pimientos Asados", "Roasted Pepper"],
+			"price": 7.95,
+			"missing": "ensalada-portada.jpg",
+			"filters": ["vegetarian", "vegan"],
+			"allergens": ["lacteos", "gluten"],
+			"description": ["Deliciosos pimientos asados", "Delicious roasted pepper.."]
+		},
+		"ensalada-cangrejo": {
+			"name": ["Ensalada de Cangrejo", "Crab Salad"],
+			"price": 7.75,
+			"missing": "ensalada-portada.jpg",
+			"filters": [],
+			"allergens": ["pescado"],
+			"description": ["Deliciosa ensalada de cangrejo.", "Delicious crab salad."]
+		},
+		"salpicon-pulpo": {
+			"name": ["Salpicón de Pulpo", "Pulpo Salmagundi"],
+			"price": 7.75,
+			"missing": "calamares-fritos.jpg",
+			"filters": [],
+			"allergens": ["lacteos", "gluten"],
+			"description": ["Plato propio de la costa andaluza Salpicón de Pulpo.", "Typical dish of the andalusian coast Octopus Salmagundi."]
+		},
+		"melon-jamon": {
+			"name": ["Melón con Jamón", "Melón and Serrano Ham"],
+			"price": 7.95,
+			"missing": "migas.jpg",
+			"filters": [],
+			"allergens": ["lacteos"],
+			"description": ["Especialidad típica de la cocina española, melón con jamón.", "Typical specialty of the spanish cuisine, melon and serrano ham."]
+		},
+		"gazpacho": {
+			"name": ["Gazpacho o Salmorejo", "Gazpacho or Salmorejo"],
+			"price": 2.95,
+			"missing": "ensalada-portada.jpg",
+			"filters": [],
+			"allergens": [],
+			"description": ["Sopa fría de aceite, tomate, pan, pepino y ajo.", "Cold soup made with oil, tomato, bread, cucumber and garlic ."]
+		},
+		"sopa-casa": {
+			"name": ["Sopa de la casa, picadillo", "House soupe"],
+			"price": 4.95,
+			"missing": "ensalada-portada.jpg",
+			"filters": [],
+			"allergens": [],
+			"description": ["Sopa de picadillo con pollo y verduras .", "Chicken and vegetable soup."]
+		},
+		"consome": {
+			"name": ["Consomé", "Chicken Soup"],
+			"price": 4,
+			"missing": "ensalada-portada.jpg",
+			"filters": [],
+			"allergens": [],
+			"description": ["Delicioso caldo de pollo.", "Delicious chicken soup."]
+		},
+		"ibericos": {
+			"name": ["Ibéricos", "Iberians"],
+			"price": 14.8,
+			"missing": "tabla-mixta.jpg",
+			"filters": [],
+			"allergens": ["lacteos", "gluten"],
+			"description": ["Delicioso caldo de pollo.", "Delicious chicken soup."]
+		},
+		"combinada": {
+			"name": ["Combinada de la casa", "House Mix"],
+			"price": 15.9,
+			"missing": "tabla-mixta.jpg",
+			"filters": [],
+			"allergens": ["lacteos", "gluten"],
+			"description": ["Delicioso caldo de pollo.", "Delicious chicken soup."]
+		},
+		"pates": {
+			"name": ["Quesos y Patés", "Cheeses and Patés"],
+			"price": 10.5,
+			"missing": "tabla-mixta.jpg",
+			"filters": [],
+			"allergens": ["lacteos", "gluten"],
+			"description": ["Delicioso caldo de pollo.", "Delicious chicken soup."]
+		},
+		"revuelto-ajetes": {
+			"name": ["Revuelto de Ajetes con Gambas", "Stirred garlic with prawns"],
+			"price": 9.95,
+			"missing": "migas.jpg",
+			"filters": [],
+			"allergens": ["lacteos", "gluten"],
+			"description": ["Deliciosa especialidad de la casa, revuelto de ajetes con gambas.", "Delicious specialty of the house, stirred garlic with prawns."]
+		},
+		"revuelto-setas": {
+			"name": ["Revuelto de Setas con Gambas", "Stirred Mushrooms with prawns"],
+			"price": 9.95,
+			"missing": "migas.jpg",
+			"filters": [],
+			"allergens": ["lacteos", "gluten"],
+			"description": ["Deliciosa especialidad de la casa, revuelto de setas con gambas.", "Delicious specialty of the house, stirred mushrooms with prawns."]
+		},
+		"esparragos-jamon": {
+			"name": ["Espárragos Verdes con Jamón", "Green Asparagus with Serrano Ham"],
+			"price": 8.5,
+			"missing": "migas.jpg",
+			"filters": [],
+			"allergens": ["lacteos", "gluten"],
+			"description": ["Deliciosa especialidad de la casa, espárragos verdes con jamón.", "Delicious specialty of the house, green asparagus with serrano ham."]
+		},
+		"migas-alpujarra": {
+			"name": ["Migas Alpujarreñas", "Alpujarra Style Fried Breadcrumbs"],
+			"price": 8.75,
+			"image": "migas.jpg",
+			"filters": [],
+			"allergens": ["lacteos", "gluten"],
+			"description": ["Deliciosa especialidad de la casa, migas con chorizo y pimiento.", "Delicious specialty of the house, fried breadcrumbs with chorizo and pepper."]
+		},
+		"huevos-jamon": {
+			"name": ["Huevos Rotos con Jamón Serrano", "Broken Eggs with Serrano Ham"],
+			"price": 9.95,
+			"missing": "papas-a-lo-pobre.jpg",
+			"filters": [],
+			"allergens": ["lacteos", "gluten"],
+			"description": ["Deliciosa especialidad de la casa, huevos rotos con jamón y patatas.", "Delicious specialty of the house, fried eggs with serrano ham and potatoes."]
+		},
+		"calamares-especial": {
+			"name": ["Calamares Fritos", "Fried Squid"],
+			"price": 9.95,
+			"image": "calamares-fritos.jpg",
+			"filters": [],
+			"allergens": ["pescado", "lacteos", "gluten"],
+			"description": ["Deliciosa especialidad de la casa, calamares fritos.", "Delicious specialty of the house, fried squid."]
+		},
+		"gambas-pilpil": {
+			"name": ["Gambas al Pilpil", "Pilpil style Prawns"],
+			"price": 10.95,
+			"missing": "ensalada-portada.jpg",
+			"filters": [],
+			"allergens": ["pescado", "lacteos", "gluten"],
+			"description": ["Deliciosa especialidad de la casa, gambas al pilpil.", "Delicious specialty of the house, prawns in pilpil sauce."]
+		},
+		"cazon-especial": {
+			"name": ["Cazón a la Plancha", "Grilled Dogfish"],
+			"price": 9.5,
+			"missing": "ensalada-portada.jpg",
+			"filters": [],
+			"allergens": ["pescado", "lacteos", "gluten"],
+			"description": ["Deliciosa especialidad de la casa, cazón a la plancha.", "Delicious specialty of the house, grilled dogfish."]
+		},	
+		"entrecot-ternera": {
+			"name": ["Entrecot de Ternera", "Beef Entrecote"],
+			"price": 15.75,
+			"missing": "combi-portada.jpg",
+			"filters": [],
+			"allergens": ["lacteos", "gluten"],
+			"description": ["Deliciosa especialidad de la casa, entrecot de ternera.", "Delicious specialty of the house, beef entrecote."]
+		},
+		"ingrediente": {
+			"name": ["Ingrediente Extra", "Extra Ingredient"],
+			"price": 0.3,
+			"missing": "tapas-extra-portada.jpg",
+			"filters": [],
+			"allergens": ["lacteos", "gluten"],
+			"description": ["Añade un ingrediente extra por solo 30 céntimos.", "Add an extra ingredient for only 30 cents."]
+		},
+		"lomo-tomate": {
+			"name": ["Lomo y tomate", "Pork Loin and Tomato"],
+			"price": 3.95,
+			"missing": "bocadillo.jpg",
+			"filters": [],
+			"allergens": ["lacteos", "gluten"],
+			"description": ["Prueba nuestra rosca o bocadillo de lomo con tomate.", "Try our sandwich or King Bagel of pork loin and tomato."]
+		},
+		"lomo-queso": {
+			"name": ["Lomo y Queso", "Pork loin and Cheese"],
+			"price": 3.95,
+			"missing": "bocadillo.jpg",
+			"filters": [],
+			"allergens": ["lacteos", "gluten"],
+			"description": ["Prueba nuestra rosca o bocadillo de lomo con queso.", "Try our sandwich or King Bagel of pork loin and cheese."]
+		},
+		"lomo-roque": {
+			"name": ["Lomo Roquefort", "Pork Loin and Roquefort Cheese"],
+			"price": 3.95,
+			"missing": "bocadillo.jpg",
+			"filters": [],
+			"allergens": ["lacteos", "gluten"],
+			"description": ["Prueba nuestra rosca o bocadillo de lomo con roquefort.", "Try our sandwich or King Bagel of pork loin and roquefort cheese."]
+		},
+		"lomo-beicon": {
+			"name": ["Lomo, Beicon y Tomate", "Pork Loin, Bacon and Tomato"],
+			"price": 4.5,
+			"missing": "bocadillo.jpg",
+			"filters": [],
+			"allergens": ["lacteos", "gluten"],
+			"description": ["Prueba nuestra rosca o bocadillo de lomo con beicon y tomate.", "Try our sandwich or King Bagel of pork loin, bacon and tomato."]
+		},
+		"beicon-tomate": {
+			"name": ["Beicon y Tomate", "Bacon and Tomato"],
+			"price": 3.75,
+			"missing": "bocadillo.jpg",
+			"filters": [],
+			"allergens": ["lacteos", "gluten"],
+			"description": ["Prueba nuestra rosca o bocadillo de beicon con tomate.", "Try our sandwich or King Bagel of bacon and tomato."]
+		},
+		"beicon-queso": {
+			"name": ["Beicon y Queso", "Cheese and Bacon"],
+			"price": 3.75,
+			"missing": "bocadillo.jpg",
+			"filters": [],
+			"allergens": ["lacteos", "gluten"],
+			"description": ["Prueba nuestra rosca o bocadillo de beicon con queso.", "Try our sandwich or King Bagel of cheese and bacon."]
+		},
+		"beicon-roque": {
+			"name": ["Beicon y Roquefort", "Bacon and Roquefort Cheese"],
+			"price": 3.75,
+			"missing": "bocadillo.jpg",
+			"filters": [],
+			"allergens": ["lacteos", "gluten"],
+			"description": ["Prueba nuestra rosca o bocadillo de beicon con roquefort.", "Try our sandwich or King Bagel of bacon and roquefort cheese."]
+		},
+		"serrano-aceite": {
+			"name": ["Serrano, tomate y aceite", "Serrano Ham, tomato and oil"],
+			"price": 3.75,
+			"missing": "bocadillo.jpg",
+			"filters": [],
+			"allergens": ["lacteos", "gluten"],
+			"description": ["Prueba nuestra rosca o bocadillo de jamón serrano con tomate y aceite.", "Try our sandwich or King Bagel of serrano ham, tomato and oil."]
+		},
+		"serrano-queso": {
+			"name": ["Serrano y Queso", "Serrano Ham and Cheese"],
+			"price": 3.95,
+			"missing": "bocadillo.jpg",
+			"filters": [],
+			"allergens": ["lacteos", "gluten"],
+			"description": ["Prueba nuestra rosca o bocadillo de jamón serrano con queso.", "Try our sandwich or King Bagel of serrano ham and cheese."]
+		},
+		"serrano-roque": {
+			"name": ["Serrano y Roquefort", "Serrano Ham and Roquefort Cheese"],
+			"price": 3.75,
+			"missing": "bocadillo.jpg",
+			"filters": [],
+			"allergens": ["lacteos", "gluten"],
+			"description": ["Prueba nuestra rosca o bocadillo de jamón serrano con roquefort.", "Try our sandwich or King Bagel of serrano ham and roquefort cheese."]
+		},
+		"sobrasada-queso": {
+			"name": ["Sobrasada Queso", "Sobrasada and Cheese"],
+			"price": 3.6,
+			"missing": "bocadillo.jpg",
+			"filters": [],
+			"allergens": ["lacteos", "gluten"],
+			"description": ["Prueba nuestra rosca o bocadillo de sobrasada con queso.", "Try our sandwich or King Bagel of mallorcan sobrasada and cheese."]
+		},
+		"york-queso": {
+			"name": ["York y Queso", "Ham and Cheese"],
+			"price": 3.6,
+			"missing": "bocadillo.jpg",
+			"filters": [],
+			"allergens": ["lacteos", "gluten"],
+			"description": ["Prueba nuestra rosca o bocadillo de jamón de york con queso.", "Try our sandwich or King Bagel of ham and cheese."]
+		},
+		"york-roque": {
+			"name": ["York roquefort", "Ham and Roquefort Cheese"],
+			"price": 3.6,
+			"missing": "bocadillo.jpg",
+			"filters": [],
+			"allergens": ["lacteos", "gluten"],
+			"description": ["Prueba nuestra rosca o bocadillo de jamón de york con roquefort.", "Try our sandwich or King Bagel of ham and roquefort cheese."]
+		},
+		"anchoas-tomate": {
+			"name": ["Anchoas con Tomate", "Anchovies and Tomato"],
+			"price": 3.75,
+			"missing": "bocadillo.jpg",
+			"filters": [],
+			"allergens": ["pescado", "lacteos", "gluten"],
+			"description": ["Prueba nuestra rosca o bocadillo de anchoas con tomate.", "Try our sandwich or King Bagel of anchovies and tomato."]
+		},
+		"anchoas-alcachofas": {
+			"name": ["Anchoas, Alcachofas y Tomate o Mahonesa", "Anchovies, Artichokes and Tomato or Mayonnaise"],
+			"price": 3.95,
+			"missing": "bocadillo.jpg",
+			"filters": [],
+			"allergens": ["pescado", "lacteos", "gluten"],
+			"description": ["Prueba nuestra rosca o bocadillo de anchoas, Alcachofas con tomate o mahonesa.", "Try our sandwich or King Bagel of anchovies, artichokes with tomato or mayonnaise."]
+		},
+		"melva-morron": {
+			"name": ["Melva, Morrón y Mahonesa", "Melva, Morrón Pepper and Mayonnaise"],
+			"price": 3.95,
+			"missing": "bocadillo.jpg",
+			"filters": [],
+			"allergens": ["pescado", "lacteos", "gluten"],
+			"description": ["Prueba nuestra rosca o bocadillo de melva, morrón con mahonesa.", "Try our sandwich or King Bagel of melva, morrón pepper and mayonnaise."]
+		},
+		"setas-jamon": {
+			"name": ["Setas y Jamón Serrano", "Serrano Ham and Mushrooms"],
+			"price": 4.2,
+			"missing": "bocadillo.jpg",
+			"filters": [],
+			"allergens": ["lacteos", "gluten"],
+			"description": ["Prueba nuestra rosca o bocadillo de setas con jamón serrano.", "Try our sandwich or King Bagel of serrano ham and mushrooms."]
+		},
+		"setas-queso": {
+			"name": ["Setas y Queso", "Mushrooms and Cheese"],
+			"price": 4.2,
+			"missing": "berenjenas.jpg",
+			"filters": [],
+			"allergens": ["lacteos", "gluten"],
+			"description": ["Prueba nuestra rosca o bocadillo de setas con queso.", "Try our sandwich or King Bagel of mushrooms and cheese."]
+		},
+		"tortilla-bocata": {
+			"name": ["Tortilla Española", "Spanish Omelette"],
+			"price": 3.6,
+			"missing": "bocadillo.jpg",
+			"filters": [],
+			"allergens": ["lacteos", "gluten"],
+			"description": ["Prueba nuestra rosca o bocadillo de tortilla española.", "Try our sandwich or King Bagel of spanish omelette."]
+		},
+		"carne-bocata": {
+			"name": ["Bocadillo de Carne en Salsa", "Saucy Meat Sandwich"],
+			"price": 3.7,
+			"missing": "bocadillo.jpg",
+			"filters": [],
+			"allergens": ["lacteos", "gluten"],
+			"description": ["Prueba nuestro bocadillo de carne en salsa.", "Try our saucy meat sandwich."]
+		},
+		"chorizo-bocata": {
+			"name": ["Bocadillo de Chorizo a la Plancha", "Grilled Chorizo Sandwich"],
+			"price": 3.85,
+			"missing": "bocadillo.jpg",
+			"filters": [],
+			"allergens": ["lacteos", "gluten"],
+			"description": ["Prueba nuestro bocadillo de chorizo a la plancha.", "Try our grilled chorizo sandwich."]
+		},
+		"pollo-bocata": {
+			"name": ["Bocadillo de Pollo a la Plancha", "Grilled Chicken Sandwich"],
+			"price": 4.25,
+			"missing": "bocadillo.jpg",
+			"filters": [],
+			"allergens": ["lacteos", "gluten"],
+			"description": ["Prueba nuestro bocadillo de pollo a la plancha.", "Try our grilled chicken sandwich."]
+		},
+		"calamares-bocata": {
+			"name": ["Bocadillo de Calamares", "Squid Sandwich"],
+			"price": 3.95,
+			"missing": "bocadillo.jpg",
+			"filters": [],
+			"allergens": ["lacteos", "gluten"],
+			"description": ["Prueba nuestro bocadillo de calamares.", "Try our squid sandwich."]
+		},
+		"manchego": {
+			"name": ["Queso Manchego", "Manchego cheese"],
+			"prices": [2.95, 8.95],
+			"pricesNames": [["Media", "Entera"], ["Half", "Platter"]],
+			"missing": "tabla-mixta.jpg",
+			"filters": ["vegetarian"],
+			"allergens": ["lacteos", "gluten"],
+			"description": ["Nuestro Queso Manchego para compartir.", "Platter of our Manchego Cheese."]
+		},
+		"queso": {
+			"name": ["Queso en Aceite", "Cheese in Oil"],
+			"prices": [3, 8.95],
+			"pricesNames": [["Media", "Entera"], ["Half", "Platter"]],
+			"missing": "tabla-mixta.jpg",
+			"filters": ["vegetarian"],
+			"allergens": ["lacteos", "gluten"],
+			"description": ["Delicioso queso aliñado con aceite.", "Delicious cheese seasoned with oil."]
+		},
+		"cabra": {
+			"name": ["Queso de Cabra", "Goat Cheese"],
+			"prices": [2.95, 10.95],
+			"pricesNames": [["Media", "Entera"], ["Half", "Platter"]],
+			"missing": "tabla-mixta.jpg",
+			"filters": ["vegetarian"],
+			"allergens": ["lacteos", "gluten"],
+			"description": ["Nuestro delicioso queso de cabra.", "Our delicious goat cheese."]
+		},
+		"chorizo-iberico": {
+			"name": ["Chorizo Ibérico", "Iberian Chorizo"],
+			"prices": [2.95, 7.85],
+			"pricesNames": [["Media", "Entera"], ["Half", "Platter"]],
+			"missing": "tabla-mixta.jpg",
+			"filters": [],
+			"allergens": ["lacteos", "gluten"],
+			"description": ["Plato de nuestro chorizo ibérico.", "Platter of our iberian chorizo."]
+		},
+		"salchichon": {
+			"name": ["Salchichon Ibérico", "Iberian Salchichon"],
+			"prices": [2.95, 7.58],
+			"pricesNames": [["Media", "Entera"], ["Half", "Platter"]],
+			"missing": "tabla-mixta.jpg",
+			"filters": [],
+			"allergens": ["lacteos", "gluten"],
+			"description": ["Plato de nuestro salchichón ibérico.", "Platter of our iberian chorizo."]
+		},
+		"morcilla": {
+			"name": ["Morcilla frita Alpujarreña", "Fried Blood Sausage from The Alpujarra"],
+			"price": 8.5,
+			"missing": "tabla-mixta.jpg",
+			"filters": [],
+			"allergens": ["lacteos", "gluten"],
+			"description": ["Plato de nuestra deliciosa morcilla frita de la Alpujarra.", "Delicious fried blood sausage from the andalusian region of The Alpujarra."]
+		},
+		"chorizo-frito": {
+			"name": ["Chorizo frito Alpujarreño", "Fried Chorizo from The Alpujarra"],
+			"prices": [3.95, 8.5],
+			"pricesNames": [["Media", "Entera"], ["Half", "Platter"]],
+			"missing": "tabla-mixta.jpg",
+			"filters": [],
+			"allergens": ["lacteos", "gluten"],
+			"description": ["Plato de nuestro delicioso chorizo frito de la Alpujarra.", "Delicious fried chorizo from the andalusian region of the Alpujarra."]
+		},
+		"lomo-orza": {
+			"name": ["Lomo de Orza Alpujarreño", "Orza Pork loin from The Alpujarra"],
+			"prices": [4.5, 8.9],
+			"pricesNames": [["Media", "Entera"], ["Half", "Platter"]],
+			"missing": "tabla-mixta.jpg",
+			"filters": [],
+			"allergens": ["lacteos", "gluten"],
+			"description": ["Plato de nuestro deliciosos lomo de orza de la Alpujarra.", "Delicious orza pork loin from the andalusian region of the Alpujarra"]
+		},
+		"montadito-lomo": {
+			"name": ["Tapa de Lomo", "Pork loin tapa"],
+			"price": 2.9,
+			"missing": "tabla-mixta.jpg",
+			"filters": [],
+			"allergens": ["lacteos", "gluten"],
+			"description": ["Delicioso montadito de lomo con pan para acompañar.", "Delicious pork loin served with bread."]
+		},
+		"carne-salsa": {
+			"name": ["Carne en salsa", "Saucy meat"],
+			"prices": [3.9, 7.95],
+			"pricesNames": [["Media", "Entera"], ["Half", "Platter"]],
+			"missing": "tabla-mixta.jpg",
+			"filters": [],
+			"allergens": ["lacteos", "gluten"],
+			"description": ["Deliciosa carne en salsa con patatas para acompañar.", "Our delicious saucy meat served with french fries."]
+		},
+		"chuletas": {
+			"name": ["Chuletas de Cordero", "Lamb Chops"],
+			"price": 13.9,
+			"missing": "tabla-mixta.jpg",
+			"filters": [],
+			"allergens": ["lacteos", "gluten"],
+			"description": ["Plato de nuestras deliciosas chuletas de cordero.", "Delicious lamb chops."]
+		},
+		"pollo": {
+			"name": ["Pechuga de pollo a la Plancha", "Grilled Chicken breast"],
+			"price": 9.5,
+			"missing": "tabla-mixta.jpg",
+			"filters": [],
+			"allergens": ["lacteos", "gluten"],
+			"description": ["Plato de nuestra deliciosa pechuga de pollo a la plancha.", "Delicious grilled chicken breast."]
+		},
+		"habas": {
+			"name": ["Habas con Jamón", "Green Beans and Ham"],
+			"prices": [3.95, 9.8],
+			"pricesNames": [["Media", "Entera"], ["Half", "Platter"]],
+			"missing": "tabla-mixta.jpg",
+			"filters": [],
+			"allergens": ["lacteos", "gluten"],
+			"description": ["Plato típico de la cocina granadina, Habas con Jamón.", "Typical dish of the granadian cuisine, Green beans and ham."]
+		},
+		"croquetas": {
+			"name": ["Croquetas de Cocido", "Cocido Croquetas"],
+			"prices": [3.95, 7.95],
+			"pricesNames": [["Media", "Entera"], ["Half", "Platter"]],
+			"missing": "tabla-mixta.jpg",
+			"filters": [],
+			"allergens": ["huevos", "lacteos", "gluten"],
+			"description": ["Deliciosas croquetas hechas de cocido.", "Typical spanish dish made with a delicious fried dough."]
+		},
+		"calamares": {
+			"name": ["Calamares fritos", "Fried Squid"],
+			"prices": [3.95, 8.95],
+			"pricesNames": [["Media", "Entera"], ["Half", "Platter"]],
+			"image": "calamares-fritos.jpg",
+			"filters": [],
+			"allergens": ["pescado", "huevos", "lacteos", "gluten"],
+			"description": ["Plato de deliciosos calamares fritos.", "Platter of our delicious fried squid."]
+		},
+		"pescado": {
+			"name": ["Filete de pescado a la plancha", "Grilled fish fillet"],
+			"prices": [4.9, 8.95],
+			"pricesNames": [["Media", "Entera"], ["Half", "Platter"]],
+			"missing": "calamares-fritos.jpg",
+			"filters": [],
+			"allergens": ["pescado", "lacteos", "gluten"],
+			"description": ["Delicioso filete de pescado a la plancha.", "Delicious grilled fish fillet."]
+		},
+		"pulpo": {
+			"name": ["Salpicón de Pulpo", "Octopus Salmagundi"],
+			"prices": [3.95, 7.75],
+			"pricesNames": [["Media", "Entera"], ["Half", "Platter"]],
+			"missing": "calamares-fritos.jpg",
+			"filters": [],
+			"allergens": ["pescado", "lacteos", "gluten"],
+			"description": ["Plato propio de la costa andaluza Salpicón de Pulpo.", "Typical dish of the andalusian coast Octopus Salmagundi."]
+		},
+		"melva": {
+			"name": ["Tapa de Melva con morrón", "Melva with pepper Tapa"],
+			"price": 2.9,
+			"missing": "calamares-fritos.jpg",
+			"filters": [],
+			"allergens": ["pescado", "lacteos", "gluten"],
+			"description": ["Deliciosa tapa de melva con morrón.", "Delicious tapa of our melva with pepper."]
+		},
+		"pimientos": {
+			"name": ["Pimientos Rellenos del Piquillo", "Stuffed Piquillo Pepper"],
+			"price": 8.95,
+			"missing": "migas.jpg",
+			"filters": ["vegan", "vegetarian"],
+			"allergens": ["lacteos", "gluten"],
+			"description": ["Deliciosos pimientos rellenos del piquillo.", "Delicious variety of pepper,  stuffed Piquillo Pepper. Typical of the Navarrean region of Spain."]
+		},
+		"pisto": {
+			"name": ["Pisto Manchego con Huevo", "Manchego Ratatouille with Egg"],
+			"price": 7.5,
+			"missing": "migas.jpg",
+			"filters": ["vegetarian"],
+			"allergens": ["huevos", "lacteos", "gluten"],
+			"description": ["Delicioso plato tradicional de la cocina española hecho de verduras con tomate.", "Traditional dish of the spanish made with vegetables and tomato."]
+		},
+		"patatas": {
+			"name": ["Patatas Fritas con salsa", "French Fries in Sauce"],
+			"prices": [3.65, 5.95],
+			"pricesNames": [["Media", "Entera"], ["Half", "Platter"]],
+			"missing": "papas-a-lo-pobre.jpg",
+			"filters": ["vegan", "vegetarian"],
+			"allergens": ["lacteos", "gluten"],
+			"description": ["Deliciosas patatas fritas en salsa.", "Delicious french fries in sauce."]
+		},
+		"alcachofas": {
+			"name": ["Alcachofas con Anchoas", "Artichokes with Anchovies"],
+			"prices": [3.7, 8.75],
+			"pricesNames": [["Media", "Entera"], ["Half", "Platter"]],
+			"missing": "migas.jpg",
+			"filters": [],
+			"allergens": ["pescado", "lacteos", "gluten"],
+			"description": ["Deliciosas alcachofas con anchoas.", "Delicious artichokes with anchovies."]
+		},
+		"papas": {
+			"name": ["Papas a lo Pobre", "Papas a lo Pobre"],
+			"prices": [3.7, 7],
+			"pricesNames": [["Media", "Entera"], ["Half", "Platter"]],
+			"image": "papas-a-lo-pobre.jpg",
+			"filters": ["vegetarian"],
+			"allergens": ["huevos", "lacteos", "gluten"],
+			"description": ["Plato típico de la cocina andaluza. Patatas, pimiento y huevo.", "Typical dish from the andalusian cuisine made with potatoes, pepper and egg."]
+		},
+		"tortilla": {
+			"name": ["Tortilla Española", "Spanish Omelette"],
+			"prices": [2.95, 6.9],
+			"pricesNames": [["Media", "Entera"], ["Half", "Platter"]],
+			"missing": "papas-a-lo-pobre.jpg",
+			"filters": ["vegetarian"],
+			"allergens": ["huevos", "lacteos", "gluten"],
+			"description": ["Plato típico de la cocina española hecha con patatas, huevo y cebolla.", "Typical dish from the spanish cuisine made with potatoes, egg and onion."]
+		},
+		"berenjenas": {
+			"name": ["Berenjenas a la Miel", "Aubergines in Honey"],
+			"prices": [3.95, 7.95],
+			"pricesNames": [["Media", "Entera"], ["Half", "Platter"]],
+			"image": "berenjenas.jpg",
+			"filters": ["vegan", "vegetarian"],
+			"allergens": ["lacteos", "gluten"],
+			"description": ["Plato de nuestras deliciosas berenjenas a la miel.", "Platter of our delicious aubergines seasoned with honey."]
+		},
+		"setas": {
+			"name": ["Setas a la Plancha", "Grilled Mushrooms"],
+			"prices": [3.95, 7.95],
+			"pricesNames": [["Media", "Entera"], ["Half", "Platter"]],
+			"missing": "migas.jpg",
+			"filters": ["vegan", "vegetarian"],
+			"allergens": ["lacteos", "gluten"],
+			"description": ["Plato de nuestras deliciosas setas a la plancha.", "Platter of our delicious grilled mushrooms."]
+		},
+		"beicon-extra": {
+			"name": ["Rosquilla de Bacon y queso", "Cheese and Bacon Bagel"],
+			"price": 1.5,
+			"missing": "bocadillo.jpg",
+			"filters": [],
+			"allergens": ["huevos", "lacteos", "gluten"],
+			"description": ["Con queso, huevo, tomate y alioli. Acompañado de patatas fritas.", "With cheese, egg, tomato and aioli sauce served with crisps."]
+		},
+		"lomo-extra": {
+			"name": ["Rosquilla de Lomo", "Pork Loin Bagel"],
+			"price": 1.5,
+			"missing": "bocadillo.jpg",
+			"filters": [],
+			"allergens": ["huevos", "lacteos", "gluten"],
+			"description": ["Con huevo, tomate y alioli. Acompañado de patatas fritas.", "With cheese, egg, tomato and aioli sauce served with crisps."]
+		},
+		"burger-vacuno-extra": {
+			"name": ["Hamburguesa de vacuno", "Beef burger"],
+			"price": 1.5,
+			"missing": "bocadillo.jpg",
+			"filters": [],
+			"allergens": ["huevos", "lacteos", "gluten"],
+			"description": ["Con queso, huevo, lechuga y kétchup. Acompañado de patatas fritas.", "With cheese, egg, lettuce and ketchup served with crisps."]
+		},
+		"serrano-extra": {
+			"name": ["Rosquilla de Serrano y Aceite", "Cheese and Bacon Bagel"],
+			"price": 1.5,
+			"missing": "bocadillo.jpg",
+			"filters": [],
+			"allergens": ["lacteos","gluten"],
+			"description": ["Con aceite de oliva y acompañado de patatas fritas.", "With olive oil and served with crisps."]
+		},
+		"tortilla-extra": {
+			"name": ["Rosquilla de Tortilla Española", "Spanish Tortilla Bagel"],
+			"price": 1.5,
+			"missing": "bocadillo.jpg",
+			"filters": ["vegetarian"],
+			"allergens": ["huevos", "lacteos", "gluten"],
+			"description": ["Con alioli y acompañado de patatas fritas.", "With aioli sauce and served with crisps."]
+		},
+		"setas-extra": {
+			"name": ["Setas", "Mushrooms"],
+			"price": 1.5,
+			"missing": "migas.jpg",
+			"filters": ["vegetarian", "vegan"],
+			"allergens": [],
+			"description": ["Deliciosa tapa extra de setas.", "Extra tapa of our delicious mushrooms."]
+		},
+		"moruno-extra": {
+			"name": ["Pincho Moruno", "Moruno Style Pork Skewers"],
+			"price": 1.5,
+			"missing": "paella-portada.jpg",
+			"filters": [],
+			"allergens": ["lacteos","gluten"],
+			"description": ["De carne de cerdo y acompañado de patatas fritas.", "Pork skewers served with crisps."]
+		},
+		"chorizo-extra": {
+			"name": ["Pincho de Chorizo Frito", "Fried Chorizo Skewers"],
+			"price": 1.5,
+			"missing": "migas.jpg",
+			"filters": [],
+			"allergens": ["lacteos", "gluten"],
+			"description": ["Pincho de chorizo frito acompañado de patatas fritas.", "Fried chorizo skewers served with crisps."]
+		},
+		"lomo-iberico": {
+			"name": ["Lomo Ibérico", "Iberian Pork Loin"],
+			"prices": [4.70, 13.50],
+			"pricesNames": [["Media", "Entera"], ["Half", "Platter"]],
+			"missing": "paella-portada.jpg",
+			"filters": [],
+			"allergens": [],
+			"description": ["Tapa extra de nuestro delicioso lomo Ibérico.","Extra tapa of our delicious iberian pork loin"]
+		}
+	},
+	"filters": [
+		{
+			"id": "vegetarian",
+			"name": ["Vegetariano", "Vegetarian"],
+			"description": ["Mostrar solo platos aptos para vegetarianos", "Show only food that is meat free"]
+		},
+		{
+			"id": "vegan",
+			"name": ["Vegano", "Vegan"],
+			"description": ["Mostrar solo platos aptos para veganos", "Show only food that is not animal derived"]
+		}
+	],
+	"allergens": {
+		"gluten": {
+			"name": ["Sin gluten", "Gluten free"],
+			"image": "gluten.svg",
+			"description": ["Mostrar solo platos que no contengan gluten", "Show only food that does not contain gluten"]
+		},
+		"huevos": {
+			"name": ["Sin huevos", "Egg free"],
+			"image": "huevos.svg",
+			"description": ["Mostrar solo platos que no contengan huevos", "Show only food that does not contain egg"]
+		},
+		"pescado": {
+			"name": ["Sin pescado", "Fish free"],
+			"image": "pescado.svg",
+			"description": ["Mostrar solo platos que no contengan pescado", "Show only food that does not contain fish"]
+		},
+		"lacteos": {
+			"name": ["Sin lácteos", "Milk free"],
+			"image": "lacteos.svg",
+			"description": ["Mostrar solo platos que no contengan lácteos", "Show only food that does not contain milk"]
+		},
+		"soja": {
+			"name": ["Sin soja", "Soya free"],
+			"image": "soja.svg",
+			"description": ["Mostrar solo platos que no contengan soja", "Show only food that does not contain soya"]
+		},
+		"frutos": {
+			"name": ["Sin frutos de cáscara", "Tree nut free"],
+			"image": "frutos-cascara.svg",
+			"description": ["Mostrar solo platos que no contengan frutos de cáscara", "Show only food that does not contain tree nuts"]
+		},
+		"crustaceos": {
+			"name": ["Sin crustáceos", "Crustacean free"],
+			"image": "crustaceos.svg",
+			"description": ["Mostrar solo platos que no contengan crustáceos", "Show only food that does not contain crustaceans"]
+		},
+		"sesamo": {
+			"name": ["Sin sésamo", "Sesame free"],
+			"image": "sesamo.svg",
+			"description": ["Mostrar solo platos que no contengan granos de sésamo", "Show only food that does not contain sesame"]
+		},
+		"moluscos": {
+			"name": ["Sin moluscos", "Mollusc free"],
+			"image": "moluscos.svg",
+			"description": ["Mostrar solo platos que no contengan moluscos", "Show only food that does not contain molluscs"]
+		},
+		"sulfitos": {
+			"name": ["Sin sulfitos", "Sulphite free"],
+			"image": "sulfitos.svg",
+			"description": ["Mostrar solo platos que no contengan dióxido de azufre ni sulfitos", "Show only food that does not contain sulphites"]
+		},
+		"mostaza": {
+			"name": ["Sin mostaza", "Mustard free"],
+			"image": "mostaza.svg",
+			"description": ["Mostrar solo platos que no contengan mostaza", "Show only food that does not contain mustard"]
+		},
+		"apio": {
+			"name": ["Sin apio", "Celery free"],
+			"image": "apio.svg",
+			"description": ["Mostrar solo platos que no contengan apio", "Show only food that does not contain celery"]
+		},
+		"cacahuetes": {
+			"name": ["Sin cacahuetes", "Peanut free"],
+			"image": "cacahuetes.svg",
+			"description": ["Mostrar solo platos que no contengan cacahuetes", "Show only food that does not contain peanuts"]
+		},
+		"altramuces": {
+			"name": ["Sin altramuces", "Lupin free"],
+			"image": "altramuces.svg",
+			"description": ["Mostrar solo platos que no contengan altramuces", "Show only food that does not contain lupins"]
+		}
+	}
+}
