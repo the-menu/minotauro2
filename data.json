@@ -55,7 +55,7 @@
 			"name": ["Bebidas", "Drinks"],
 			"image": "bebidas.jpg",
 			"items": ["cana-miguel", "tubo-miguel", "miguel-sin", "jarra-miguel", "alhambra-1925", "alhambra-especial", "cruzcampo-especial", "estrella-galicia", "mahou", "sacromonte", "mosto", "tinto-verano", "sangria", "vermut", "refrescos", "zumos", "batidos"],
-			"info": ["Nuestras bebidas vienen acompañadas de una tapa gratis. Máximo dos variedades por mesa.", "Our drinks are served with one free tapa. Two varieties maximum per table."]
+			"info": ["Nuestras bebidas vienen acompañadas de una tapa gratis.", "Our drinks are served with one free tapa."]
 		},
 		"vinos-tintos": {
 			"name": ["Vinos Tintos", "Red Wines"],
