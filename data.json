@@ -29,12 +29,6 @@
 			"items": ["jamon", "manchego", "queso", "cabra", "lomo-iberico", "chorizo-iberico", "salchichon", "morcilla", "chorizo-frito", "lomo-orza", "montadito-lomo", "carne-salsa", "chuletas", "pollo", "habas", "croquetas", "calamares", "pescado", "pulpo", "melva", "pimientos", "pisto", "patatas", "alcachofas", "papas", "tortilla", "berenjenas", "setas"],
 			"hasSizes": [["Elija el tamaño", "Media", "Entera"], ["Choose the size", "Half", "Platter"]]
 		},
-"tapas": {
-			"name": ["Tapas Extra", "Extra Tapa"],
-			"image": "tapas-extra-portada.jpg",
-			"items": ["beicon-extra", "lomo-extra", "burger-vacuno-extra", "serrano-extra", "tortilla-extra", "setas-extra", "moruno-extra", "chorizo-extra", "calamares-extra"],
-			"info": ["Nuestras <a href=\"#/section/bebidas\">bebidas</a> vienen acompañadas de una tapa gratis a elegir.", "Our <a href=\"#/section/bebidas\">drinks</a> are served with a free tapa to choose."]
-		},
 		"bocadillos": {
 			"name": ["Roscas y Bocadillos", "King Bagels and Sandwiches"],
 			"image": "bocadillo.jpg",
@@ -1082,78 +1076,6 @@
 			"allergens": ["lacteos", "gluten"],
 			"description": ["Plato de nuestras deliciosas setas a la plancha.", "Platter of our delicious grilled mushrooms."]
 		},
-		"beicon-extra": {
-			"name": ["Rosquilla de Bacon y queso", "Cheese and Bacon Bagel"],
-			"price": 1.5,
-			"missing": "bocadillo.jpg",
-			"filters": [],
-			"allergens": ["huevos", "lacteos", "gluten"],
-			"description": ["Con queso, huevo, tomate y alioli. Acompañado de patatas fritas.", "With cheese, egg, tomato and aioli sauce served with crisps."]
-		},
-		"lomo-extra": {
-			"name": ["Rosquilla de Lomo", "Pork Loin Bagel"],
-			"price": 1.5,
-			"missing": "bocadillo.jpg",
-			"filters": [],
-			"allergens": ["huevos", "lacteos", "gluten"],
-			"description": ["Con huevo, tomate y alioli. Acompañado de patatas fritas.", "With cheese, egg, tomato and aioli sauce served with crisps."]
-		},
-		"burger-vacuno-extra": {
-			"name": ["Hamburguesa de vacuno", "Beef burger"],
-			"price": 1.5,
-			"missing": "bocadillo.jpg",
-			"filters": [],
-			"allergens": ["huevos", "lacteos", "gluten"],
-			"description": ["Con queso, huevo, lechuga y kétchup. Acompañado de patatas fritas.", "With cheese, egg, lettuce and ketchup served with crisps."]
-		},
-		"serrano-extra": {
-			"name": ["Rosquilla de Serrano y Aceite", "Cheese and Bacon Bagel"],
-			"price": 1.5,
-			"missing": "bocadillo.jpg",
-			"filters": [],
-			"allergens": ["lacteos","gluten"],
-			"description": ["Con aceite de oliva y acompañado de patatas fritas.", "With olive oil and served with crisps."]
-		},
-		"tortilla-extra": {
-			"name": ["Rosquilla de Tortilla Española", "Spanish Tortilla Bagel"],
-			"price": 1.5,
-			"missing": "bocadillo.jpg",
-			"filters": ["vegetarian"],
-			"allergens": ["huevos", "lacteos", "gluten"],
-			"description": ["Con alioli y acompañado de patatas fritas.", "With aioli sauce and served with crisps."]
-		},
-		"setas-extra": {
-			"name": ["Setas", "Mushrooms"],
-			"price": 1.5,
-			"missing": "migas.jpg",
-			"filters": ["vegetarian", "vegan"],
-			"allergens": [],
-			"description": ["Deliciosa tapa extra de setas.", "Extra tapa of our delicious mushrooms."]
-		},
-		"moruno-extra": {
-			"name": ["Pincho Moruno", "Moruno Style Pork Skewers"],
-			"price": 1.5,
-			"missing": "paella-portada.jpg",
-			"filters": [],
-			"allergens": ["lacteos","gluten"],
-			"description": ["De carne de cerdo y acompañado de patatas fritas.", "Pork skewers served with crisps."]
-		},
-		"chorizo-extra": {
-			"name": ["Pincho de Chorizo Frito", "Fried Chorizo Skewers"],
-			"price": 1.5,
-			"missing": "migas.jpg",
-			"filters": [],
-			"allergens": ["lacteos", "gluten"],
-			"description": ["Pincho de chorizo frito acompañado de patatas fritas.", "Fried chorizo skewers served with crisps."]
-		},
-		"calamares-extra": {
-			"name": ["Calamares", "Fried Squid Tapa"],
-			"price": 1.5,
-			"image": "calamares-fritos.jpg",
-			"filters": [],
-			"allergens": ["pescado", "lacteos", "gluten"],
-			"description": ["Deliciosos calamares fritos.", "Delicious fried squid."]
-		},
 		"lomo-iberico": {
 			"name": ["Lomo Ibérico", "Iberian Pork Loin"],
 			"prices": [4.70, 13.50],
@@ -1249,3 +1171,4 @@
 		}
 	}
 }
+
