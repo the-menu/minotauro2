@@ -618,7 +618,7 @@
 			"description": ["Deliciosa especialidad de la casa, migas con chorizo y pimiento.", "Delicious specialty of the house, fried breadcrumbs with chorizo and pepper."]
 		},
 		"huevos-jamon": {
-			"name": ["Huevos Rotos con Jamón Serrano", "Broken Eggs with Serrano Ham"],
+			"name": ["Huevos Rotos con Jamón Serrano", "Spanish style Eggs with Serrano Ham"],
 			"price": 9.95,
 			"missing": "papas-a-lo-pobre.jpg",
 			"filters": [],
