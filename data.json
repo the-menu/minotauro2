@@ -420,7 +420,7 @@
 		"plato": {
 			"name": ["Plato Alpujarreño", "Dish of The Alpujarra"],
 			"price": 10.95,
-			"missing": "combi-portada.jpg",
+			"image": "plato-alpujarrenio.jpg",
 			"filters": [],
 			"allergens": ["huevos", "lacteos", "gluten"],
 			"description": ["Combinación de lomo, huevo, chorizo, morcilla y patatas.", "Combination of pork loin, egg, chorizo, blood sausage and potatoes."]
@@ -620,7 +620,7 @@
 		"huevos-jamon": {
 			"name": ["Huevos Rotos con Jamón Serrano", "Spanish style Eggs with Serrano Ham"],
 			"price": 9.95,
-			"missing": "papas-a-lo-pobre.jpg",
+			"image": "huevos-rotos-con-jamon-serrano.jpg",
 			"filters": [],
 			"allergens": ["lacteos", "gluten"],
 			"description": ["Deliciosa especialidad de la casa, huevos rotos con jamón y patatas.", "Delicious specialty of the house, fried eggs with serrano ham and potatoes."]
@@ -648,7 +648,7 @@
 			"filters": [],
 			"allergens": ["pescado", "lacteos", "gluten"],
 			"description": ["Deliciosa especialidad de la casa, cazón a la plancha.", "Delicious specialty of the house, grilled dogfish."]
-		},	
+		},
 		"entrecot-ternera": {
 			"name": ["Entrecot de Ternera", "Beef Entrecote"],
 			"price": 15.75,
