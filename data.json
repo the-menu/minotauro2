@@ -622,7 +622,7 @@
 			"price": 9.95,
 			"image": "huevos-rotos-con-jamon-serrano.jpg",
 			"filters": [],
-			"allergens": ["lacteos", "gluten"],
+			"allergens": ["huevos", "lacteos", "gluten"],
 			"description": ["Deliciosa especialidad de la casa, huevos rotos con jamón y patatas.", "Delicious specialty of the house, fried eggs with serrano ham and potatoes."]
 		},
 		"calamares-especial": {
