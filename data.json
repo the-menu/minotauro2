@@ -676,7 +676,7 @@
 		"lomo-queso": {
 			"name": ["Lomo y Queso", "Pork loin and Cheese"],
 			"price": 3.95,
-			"missing": "bocadillo.jpg",
+			"image": "lomo-queso.jpg",
 			"filters": [],
 			"allergens": ["lacteos", "gluten"],
 			"description": ["Prueba nuestra rosca o bocadillo de lomo con queso.", "Try our sandwich or King Bagel of pork loin and cheese."]
@@ -820,7 +820,7 @@
 		"carne-bocata": {
 			"name": ["Bocadillo de Carne en Salsa", "Saucy Meat Sandwich"],
 			"price": 3.7,
-			"missing": "bocadillo.jpg",
+			"image": "carne-en-salsa.jpg",
 			"filters": [],
 			"allergens": ["lacteos", "gluten"],
 			"description": ["Prueba nuestro bocadillo de carne en salsa.", "Try our saucy meat sandwich."]
